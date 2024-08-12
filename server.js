@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '22PA1A4218@pru',
+  password: '',
   database: 'flashcard_db',
   multipleStatements: true // Allows running multiple queries in one go
 });
